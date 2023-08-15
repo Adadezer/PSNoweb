@@ -1,0 +1,31 @@
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  top: 7%;
+  left: 15%;
+  width: 35%;
+  height: 70%;
+  font-family: 'Open Sans';
+  color: #ffffff;
+}
+
+.btn-yellow {
+  background-color: #FBAF17;
+  color: #202332;
+  border: none;
+  border-radius: 10px;
+  padding: 3% 10%;
+}
+
+.btn-whiteTransparent {
+  margin-top: 4%;
+  background-color: transparent;
+  border: 1px solid #ffffff; 
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 3% 10%;
+}

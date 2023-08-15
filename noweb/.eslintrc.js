@@ -59,5 +59,6 @@ module.exports = {
     'click-events-have-key-events': 'off',
     'max-len': 'off',
     'arrow-body-style': 'off',
+    'react/no-array-index-key': 'off',
   },
 };

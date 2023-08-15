@@ -37,7 +37,7 @@ export default function BarraDeTarefas() {
             <li className="nav-item">
               <a className="nav-link" href="#">Localização</a>
             </li>
-            <button type="button" className="btn-contato">Contato</button>
+            <button type="button" className="btn-navyBlue">Contato</button>
           </ul>
         </div>
       </div>

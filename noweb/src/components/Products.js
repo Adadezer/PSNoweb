@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/Produtos.css';
-import arrayProducts from '../helpers/arrayProdutos';
+import '../styles/Products.css';
+import arrayProducts from '../helpers/arrayProducts';
 
 export default function Produtos() {
   // console.log('array >>>>>>', arrayProducts);
@@ -15,13 +15,13 @@ export default function Produtos() {
               <img src={product.image} className="card-img-top product-imgCard" alt="imagemProduto" />
               <div className="barra"></div>
               <div className="product-cardBody">
-                <div className="card-text product-name">{product.nome}</div>
+                <div className="card-text product-name">{product.name}</div>
                 <div className="card-text product-prices">
                   <div className="product-oldPrice">{product.oldPrice}</div>
                   <div className="product-newPrice">{product.newPrice}</div>
                 </div>
-                <div className="product-installments" style={{ display: product.parcela ? 'block' : 'none' }}>
-                  {product.parcela}
+                <div className="product-installments" style={{ display: product.installments ? 'block' : 'none' }}>
+                  {product.installments}
                 </div>
               </div>
             </div>

@@ -1,0 +1,101 @@
+.product-imageContainer {
+  position: relative;
+  display: inline-block;
+  margin-top: 3%;
+}
+
+.product-imageBackground {
+  width: 75%;
+  margin-left: 7%;
+}
+
+.product-productsContainer {
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  width: 70%;
+  font-family: 'Open Sans';
+  color: #ffffff;
+}
+
+.product-title {
+  margin-left: 21%;
+}
+
+.product-productList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: small;
+}
+
+.product-card {
+  width: 21%;
+  margin: 0 0.5% 5% 0.5%;
+  position: relative;
+  min-height: 395px;
+
+}
+
+.product-imgCard {
+  padding: 0;
+  min-height: 50%;
+  margin-bottom: 15%;
+}
+
+.barra {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #202332;
+  width: 85%;
+  height: 4%;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.product-cardBody {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  text-align: center;
+}
+
+.product-name {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  font-size: large;
+  font-weight: 600;
+  min-height: 55px;
+  margin-bottom: 15%;
+}
+
+.product-prices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.product-oldPrice {
+  text-decoration:line-through;
+}
+
+.product-newPrice {
+  background-color: #FBAF17;
+  padding: 5%;
+  border-radius: 10px 0 0 10px;
+  font-size: larger;
+}
+
+.product-installments {
+  display: flex;
+  align-self: center;
+  background-color: #e9e5e5;
+  padding: 5% 5% 0 5%;
+
+  border-radius: 10px 10px 0 0;
+}

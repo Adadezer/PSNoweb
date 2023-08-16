@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/Capa.css';
+import '../styles/Cape.css';
 
-export default function Capa() {
+export default function Cape() {
   function scrollToProducts(event) {
     event.preventDefault(); // Evitar que o link funcione como um link normal
     

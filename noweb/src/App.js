@@ -1,14 +1,14 @@
 import './App.css';
-import BarraDeTarefas from './components/BarraDeTarefas';
-import Capa from './components/Capa';
-import Produtos from './components/Produtos';
+import Navbar from './components/Navbar';
+import Cape from './components/Cape';
+import Products from './components/Products';
 
 function App() {
   return (
     <>
-      <BarraDeTarefas />
-      <Capa />
-      <Produtos />
+      <Navbar />
+      <Cape />
+      <Products />
     </>
   );
 }

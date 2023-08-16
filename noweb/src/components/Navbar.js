@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/BarraDeTarefas.css';
+import '../styles/Navbar.css';
 
 export default function BarraDeTarefas() {
   return (

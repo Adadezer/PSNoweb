@@ -6,7 +6,7 @@ export default function Produtos() {
   // console.log('array >>>>>>', arrayProducts);
   return (
     <div className="container-fluid product-imageContainer">
-      <img src="/img/Group62.jpg" className="img-fluid product-imageBackground" alt="imagemFundoProdutos" />
+      <img src="/img/imageProducts.jpg" className="img-fluid product-imageBackground" alt="imagemFundoProdutos" />
       <div className="product-productsContainer">
         <h3 id="product-list" className="product-title" style={{ fontWeight: 700 }}>PRODUTOS EM DESTAQUE</h3>
         <div className="product-productList">

@@ -3,7 +3,6 @@ import '../styles/Products.css';
 import arrayProducts from '../helpers/arrayProducts';
 
 export default function Produtos() {
-  // console.log('array >>>>>>', arrayProducts);
   return (
     <div className="container-fluid product-imageContainer">
       <img src="/img/imageProducts.jpg" className="img-fluid product-imageBackground" alt="imagemFundoProdutos" />

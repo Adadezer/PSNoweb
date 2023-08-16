@@ -37,6 +37,11 @@
   font-size: large;
 }
 
+.cape-goDown a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .cape-arrowDown {
   width: 6%;
   height: 7%;

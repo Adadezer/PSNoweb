@@ -2,6 +2,18 @@ import React from 'react';
 import '../styles/Capa.css';
 
 export default function Capa() {
+  function scrollToProducts(event) {
+    event.preventDefault(); // Evitar que o link funcione como um link normal
+    
+    const productsList = document.getElementById('product-list');
+    if (productsList) {
+      productsList.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  }
+  
   return (
     <div className="container-fluid cape-imageContainer">
       <img src="/img/Group61.jpg" className="img-fluid cape-viewMobile" alt="imagemFundoCapa" />
@@ -14,7 +26,7 @@ export default function Capa() {
         </div>
         <div className="cape-goDown">
           <img src="/img/arrow-down.png" className="cape-arrowDown" alt="seta para baixo" />
-          <p>Role para ver mais</p>
+          <a href="./Produtos.js#product-list" onClick={scrollToProducts}>Role para ver mais</a>
         </div>
       </div>
     </div>

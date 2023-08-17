@@ -1,0 +1,43 @@
+.telesales-imageContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.telesales-telesalesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.telesales-content {
+  position: absolute;
+  top: -20%;
+  display: flex;
+  width: 98%;
+  height: 120%;
+}
+
+.telesales-image {
+  width: 50%;
+  height: 100%;
+}
+.telesales-imageGirl {
+  position: absolute;
+  height: 100%;
+  margin-left: 25%;
+}
+
+.telesales-button {
+  width: 57%;
+  height: 100%;
+}
+
+.telesales-buttonSales{
+  margin-top: 30%;
+  background-color: #FBAF17;
+  color: #202332;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+}

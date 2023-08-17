@@ -25,8 +25,7 @@ export default function About() {
           <div className="about-descriptionContainer">
             <div className="about-description" dangerouslySetInnerHTML={{ __html: aboutUs.replace(/\n/g, '<br>') }} />
             <button type="button" className="about-button">SAIBA MAIS SOBRE NÓS</button>
-          </div>
-          
+          </div> 
         </div>
       </div>
     </div>

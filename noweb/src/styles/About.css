@@ -23,11 +23,7 @@
   width: 98%;
 }
 
-.about-photoStore {
-  width: 100%;
-}
-
-.about-imageStore {
+.about-photoStore, .about-imageStore {
   width: 100%;
 }
 

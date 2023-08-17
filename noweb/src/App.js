@@ -4,6 +4,7 @@ import Cape from './components/Cape';
 import Products from './components/Products';
 import Categories from './components/Categories';
 import About from './components/About';
+import Telesales from './components/Telesales';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Products />
       <Categories />
       <About />
+      <Telesales />
     </>
   );
 }

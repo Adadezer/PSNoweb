@@ -15,12 +15,12 @@ export default function About() {
 
   return (
     <div className="container-fluid about-imageContainer">
-      <img src="/img/Group66.png" className="img-fluid" alt="imagemFundoSobre" />
+      <img src="/img/aboutBackground.png" className="img-fluid" alt="imagemFundoSobre" />
       <div className="about-aboutContainer">
         <h3 className="about-title" style={{ fontWeight: 700 }}>SUA MELHOR OPÇÃO</h3>
         <div className="about-content">
           <div className="about-photoStore">
-            <img src="img/About1.png" className="about-imageStore" alt="" />
+            <img src="img/about1.png" className="about-imageStore" alt="" />
           </div>
           <div className="about-descriptionContainer">
             <div className="about-description" dangerouslySetInnerHTML={{ __html: aboutUs.replace(/\n/g, '<br>') }} />

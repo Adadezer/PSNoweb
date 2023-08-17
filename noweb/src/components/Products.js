@@ -10,7 +10,7 @@ export default function Produtos() {
         <h3 id="product-list" className="product-title" style={{ fontWeight: 700 }}>PRODUTOS EM DESTAQUE</h3>
         <div className="product-productList">
           {arrayProducts.map((product) => (
-            <div className="card product-card">
+            <div className="card product-card" style={{ backgroundColor: 'transparent' }}>
               <img src={product.image} className="card-img-top product-imgCard" alt="imagemProduto" />
               <div className="barra"></div>
               <div className="product-cardBody">

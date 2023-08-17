@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Cape from './components/Cape';
 import Products from './components/Products';
+import Categories from './components/Categories';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Cape />
       <Products />
+      <Categories />
     </>
   );
 }

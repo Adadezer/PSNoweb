@@ -20,7 +20,7 @@
 
 .category-categoriesList {
   position: absolute;
-  top: 60%;
+  top: 50%;
   font-family: 'Open Sans';
   color: #FBAF17;
   width: 60%;
@@ -37,5 +37,9 @@
 }
 
 .category-cardTitle {
-  padding-bottom: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10%;
+  min-height: 25%;
 }

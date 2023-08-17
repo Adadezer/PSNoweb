@@ -39,7 +39,6 @@
 }
 
 .product-imgCard {
-  padding: 0;
   min-height: 50%;
   margin-bottom: 15%;
 }
@@ -59,7 +58,6 @@
 .product-cardBody {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   text-align: center;
 }
 
@@ -96,6 +94,5 @@
   align-self: center;
   background-color: #e9e5e5;
   padding: 5% 5% 0 5%;
-
   border-radius: 10px 10px 0 0;
 }

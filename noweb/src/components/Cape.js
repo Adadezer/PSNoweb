@@ -25,7 +25,7 @@ export default function Cape() {
       <img src="/img/imageCape.jpg" className="img-fluid cape-viewMobile" alt="imagemFundoCapa" />
       <div className="cape-overlay">
           <div className="cape-title" style={{ fontWeight: 700 }}>ILUMINE O SEU DIA A DIA</div>
-          <div className="teste" dangerouslySetInnerHTML={{ __html: textCape.replace(/\n/g, '<br>') }} />
+          <div dangerouslySetInnerHTML={{ __html: textCape.replace(/\n/g, '<br>') }} />
         <div className="cape-buttons">
           <button type="button" className="cape-btnYellow" style={{ fontWeight: 700 }}>VEJA NOSSOS PRODUTOS</button>
           <button type="button" className="cape-btnWhiteTransparent" style={{ fontWeight: 700 }}>NOS CONHEÇA MELHOR</button>

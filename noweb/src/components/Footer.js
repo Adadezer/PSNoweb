@@ -4,7 +4,6 @@ import '../styles/Footer.css';
 export default function Footer() {
   const slogan = `
     Venha na Elétrica J. Santos e garanta a melhor
-    
     opção para sua casa!
   `;
   return (

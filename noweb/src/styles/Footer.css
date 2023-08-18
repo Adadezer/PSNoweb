@@ -45,7 +45,6 @@
   height: 100%;
   margin-right: 20%;
   padding-top: 2%;
-  /* background-color: aqua; */
 }
 
 .footer-socialText {
@@ -57,12 +56,10 @@
   display: flex;
   justify-content: space-evenly;
   width: 28%;
-  /* background-color: aqua; */
 }
 
 .footer-socialLogos {
   width: 14%;
-  /* margin: 0 10%; */
 }
 
 .footer-containerNoweb {

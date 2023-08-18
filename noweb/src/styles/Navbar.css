@@ -22,6 +22,19 @@
   font-weight: 600;
 }
 
+.dropdownContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: small;
+  font-weight: 600;
+}
+
+.dropdownImageCategory{
+  background-color: #FBAF17;
+  border-radius: 10px;
+}
+
 .btn-navyBlue {
   background-color: #202332;
   color: #ffffff;

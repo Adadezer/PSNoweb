@@ -7,7 +7,7 @@ export default function Categories() {
     <div className="container-fluid categories-imageContainer">
       <img src="/img/imageCategory.jpg" className="img-fluid" alt="imagemFundoCategorias" />
       <div className="category-categoriesContainer">
-        <h3 className="category-title" style={{ fontWeight: 700 }}>CATEGORIAS</h3>
+        <h4 className="category-title" style={{ fontWeight: 700 }}>CATEGORIAS</h4>
         <div className="category-categoriesList">
           {arrayCategories.map((category) => (
             <div>

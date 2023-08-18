@@ -33,10 +33,11 @@
 .product-card {
   width: 20%; 
   margin: 0 0.5% 5% 4% ;
-  min-height: 300px;
+  /* min-height: 300px; */
 }
+
 .product-imgCard {
-  min-height: 20%;
+  min-height: 10%;
   margin-bottom: 15%;
 }
 
@@ -92,4 +93,89 @@
   background-color: #e9e5e5;
   padding: 5% 5% 0 5%;
   border-radius: 10px 10px 0 0;
+}
+
+@media (max-width: 992px) {
+  .product-productsContainer {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    width: 100%;
+    font-family: 'Open Sans';
+    color: #ffffff;
+  }
+  
+  .product-imgCard {
+    margin-bottom: 2%;
+  }
+  
+  .product-title {
+    font-size: 16px;
+  }
+
+  .product-productList {
+    width: 90%;
+    display: flex;
+    justify-content: space-around ;
+    font-size: 10px;
+  }
+
+  .product-card {
+    width: 45%; 
+    margin: 0 0.5% 5% 4% ;
+    min-height: 10px;
+  }
+  
+  .barra {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #202332;
+    width: 85%;
+    height: 4%;
+    border-radius: 10px;
+    align-self: center;
+  }
+  
+  .product-cardBody {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .product-name {
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    font-weight: 600;
+    min-height: 55px;
+    margin-bottom: 2%;
+  }
+  
+  .product-prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .product-oldPrice {
+    text-decoration:line-through;
+  }
+  
+  .product-newPrice {
+    background-color: #FBAF17;
+    padding: 5%;
+    border-radius: 10px 0 0 10px;
+    font-size: larger;
+  }
+  
+  .product-installments {
+    display: flex;
+    align-self: center;
+    background-color: #e9e5e5;
+    padding: 5% 5% 0 5%;
+    border-radius: 10px 10px 0 0;
+  }
 }

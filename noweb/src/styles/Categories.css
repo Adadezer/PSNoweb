@@ -1,7 +1,7 @@
 .categories-imageContainer {
   position: relative;
   display: inline-block;
-  margin-top: 62%;
+  margin-top: 50%;
 }
 
 .category-categoriesContainer {
@@ -20,7 +20,7 @@
 
 .category-categoriesList {
   position: absolute;
-  top: 50%;
+  top: 35%;
   font-family: 'Open Sans';
   color: #FBAF17;
   width: 60%;
@@ -33,13 +33,13 @@
 .category-cardBody {
   background-color: #FBAF17;
   border-radius: 45px;
-  margin-bottom: 15%;
 }
 
 .category-cardTitle {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 20%;
   min-height: 25%;
+  font-size: medium;
 }

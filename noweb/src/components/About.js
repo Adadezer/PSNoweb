@@ -17,7 +17,7 @@ export default function About() {
     <div className="container-fluid about-imageContainer">
       <img src="/img/aboutBackground.png" className="img-fluid" alt="imagemFundoSobre" />
       <div className="about-aboutContainer">
-        <h3 className="about-title" style={{ fontWeight: 700 }}>SUA MELHOR OPÇÃO</h3>
+        <h4 className="about-title" style={{ fontWeight: 700 }}>SUA MELHOR OPÇÃO</h4>
         <div className="about-content">
           <div className="about-photoStore">
             <img src="img/about1.png" className="about-imageStore" alt="" />

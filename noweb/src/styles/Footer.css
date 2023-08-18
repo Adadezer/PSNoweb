@@ -30,6 +30,12 @@
   color: #ffffff;
 }
 
+.footer-copyright {
+  font-size: small;
+  color: #ffffff;
+  margin-top: 15%;
+}
+
 .footer-socialMedia {
   display: flex;
   flex-direction: column;
@@ -52,4 +58,17 @@
 
 .footer-socialLogos {
   margin: 0 10%;
+}
+
+.footer-containerNoweb {
+  display: flex;
+  align-items: center;
+  font-size: small;
+  color: #ffffff;
+  margin-top: 27%;
+}
+
+.footer-logoNoweb {
+  width: 15%;
+  margin-left: 2%;
 }

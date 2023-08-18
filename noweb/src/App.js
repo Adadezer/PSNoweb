@@ -4,7 +4,7 @@ import Cape from './components/Cape';
 import Products from './components/Products';
 import Categories from './components/Categories';
 import About from './components/About';
-// import Telesales from './components/Telesales';
+import Telesales from './components/Telesales';
 // import Footer from './components/Footer';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Products />
       <Categories />
       <About />
-      {/* <Telesales /> */}
+      <Telesales />
       {/* <Footer /> */}
     </>
   );

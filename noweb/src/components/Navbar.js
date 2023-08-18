@@ -5,15 +5,15 @@ export default function BarraDeTarefas() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <img src="/img/imageNavbar.png" alt="imagem" />
+        <img src="/img/imageNavbar.png" className="imageNavbar" alt="imagem" />
         <img src="/img/EletricJSantos.png" className="logo" alt="Logo" />
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse navbar-link" id="navbarNavDropdown">
+        <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
+              <a id="home" className="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

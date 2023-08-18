@@ -59,12 +59,15 @@
 
 @media (max-width: 992px) {
   .cape-overlay {
-    top: 1%;
-    left: 0.5%;
-    width: 57%;
+    top: 0%;
+    left: 3%;
+    width: 94%;
+    height: auto;
     text-align: center;
     padding: 0 10px;
-    font-size: 10px;
+    font-size: 11px;
+    font-weight: 500;
+    background-color: #202332b4;
   }
 
   .cape-title {
@@ -75,13 +78,11 @@
   .cape-btnYellow,
   .cape-btnWhiteTransparent {
     width: 40%;
-    padding: 1% 5%;
+    padding: 1% 10%;
     font-size: 8px;
   }
 
   .cape-btnWhiteTransparent {
-    background-color: #ffffff;
-    color: #202332;
     margin-left: 3%;
   }
 
@@ -96,6 +97,6 @@
   }
 
   .cape-arrowDown {
-    width: 7%;
+    width: 5%;
   }
 }

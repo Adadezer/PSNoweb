@@ -44,22 +44,28 @@
   font-weight: 600;
 }
 
-@media (min-width: 992px) {
-  .navbar-link {
-    height: 80px;
+@media (max-width: 992px) {
+  .imageNavbar {
+    width: 15%;
+  }
+
+  .logo {
+    width: 20%;
+    margin: 0 30px;
+  }
+
+  #navbarNavDropdown {
+    font-size: smaller;
+    /* padding: 2%; */
+  }
+
+  .dropdownContainer {
+    font-size: x-small;
   }
 
   .btn-navyBlue {
-    margin-right: 30px;
+    padding: 0 12px;
+    font-weight: 500;
   }
 }
 
-@media (max-width: 991px) {
-  .navbar-link {
-    height: 220px;
-  }
-
-  .btn-navyBlue {
-    margin-right: 10px;
-  }
-}

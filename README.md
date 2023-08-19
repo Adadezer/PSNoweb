@@ -1,5 +1,11 @@
 # Processo Seletivo Noweb
 
+## 💻 Tecnologias Utilizadas
+- Css
+- JavaScript
+- React
+- Bootstrap
+
 ## ⚙️ Como Utilizar
 
 1- Abra o terminal, clone o projeto e entre na pasta 'noweb':

@@ -1,7 +1,7 @@
 .product-imageContainer {
   position: relative;
   display: inline-block;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 .product-imageBackground {
@@ -33,7 +33,6 @@
 .product-card {
   width: 20%; 
   margin: 0 0.5% 5% 4% ;
-  /* min-height: 300px; */
 }
 
 .product-imgCard {

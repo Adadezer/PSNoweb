@@ -15,3 +15,5 @@ depois
 - `npm start`
 
  O projeto começará a ser carregado e a página será aberta no browser
+ 
+ Foram feitos 2 layouts, computador e mobile. Para os layouts de tela maior foi usado como base uma tela de 1366x768 de resolução, já para telas menores foi usado como base um tamanho de 375x667 de resolução

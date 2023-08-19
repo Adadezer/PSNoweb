@@ -2,11 +2,11 @@
 
 ## ⚙️ Como Utilizar
 
-1- Abra o terminal, clone o projeto e entre na pasta 'ultra-front':
+1- Abra o terminal, clone o projeto e entre na pasta 'noweb':
 
-- `git clone git@github.com:Adadezer/PSUltracar.git` ou `git clone https://github.com/Adadezer/PSUltracar.git`
+- `git clone git@github.com:Adadezer/PSNoweb.git` ou `git clone https://github.com/Adadezer/PSNoweb.git`
 depois
-- `cd PSUltracar/ultra-front/`
+- `cd PSNoweb/noweb/ /`
 
 2- instale as dependências
   - `npm install`

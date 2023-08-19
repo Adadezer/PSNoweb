@@ -8,14 +8,14 @@
 }
 
 #navbarNavDropdown {
+  display: flex;
+  justify-content: center;
+  padding: 0.5%;
   font-family: 'Open Sans';
   background-color: #FBAF17;
-  justify-content: center;
-  display: flex;
   border-radius: 50px 0 0 50px;
   color: #202332;
   font-size: small;
-  padding: 0.5%;
 }
 
 #home {
@@ -45,6 +45,7 @@
 }
 
 @media (max-width: 992px) {
+  
   .imageNavbar {
     width: 15%;
   }
@@ -52,6 +53,10 @@
   .logo {
     width: 20%;
     margin: 0 30px;
+  }
+
+  #navbarNavDropdown {
+    border-radius: 50px 20px 50px 20px;
   }
 
   #navbarNavDropdown {
@@ -64,8 +69,7 @@
   }
 
   .btn-navyBlue {
-    padding: 0 12px;
+    padding: 5px 12px;
     font-weight: 500;
   }
 }
-

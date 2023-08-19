@@ -14,6 +14,11 @@
   color: #ffffff;
 }
 
+.cape-title {
+  max-width: 70%;
+  font-size: 40px;
+}
+
 .cape-btnYellow {
   background-color: #FBAF17;
   font-size: 12px;
@@ -21,6 +26,7 @@
   border: none;
   border-radius: 10px;
   padding: 3% 10%;
+  margin-top: 5%;
 }
 
 .cape-btnWhiteTransparent {
@@ -51,37 +57,46 @@
   margin-right: 2%;
 }
 
-@media (max-width: 991px) {
-  .cape-viewMobile {
-    width: 100%;
-    height: 40vh;
-  }
-
+@media (max-width: 992px) {
   .cape-overlay {
-    top: 1%;
-    width: 45%;
-    left: 5%;
-    font-size: 10px;
+    top: 0%;
+    left: 3%;
+    width: 94%;
+    height: auto;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 11px;
+    font-weight: 500;
+    background-color: #202332b4;
   }
 
-  .cape-buttons {
-    display: flex;
+  .cape-title {
+    font-size: medium;
+    max-width: 100%;
   }
 
-  .cape-btnYellow {
-    width: 45%;
-    padding: 1%;
-    margin-top: 0;
+  .cape-btnYellow,
+  .cape-btnWhiteTransparent {
+    width: 40%;
+    padding: 1% 10%;
+    font-size: 8px;
   }
 
   .cape-btnWhiteTransparent {
-    width: 45%;
-    padding: 1%;
-    margin-top: 0;
     margin-left: 3%;
   }
 
   .cape-goDown {
-    display: none;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cape-goDown a {
+    font-size: 12px;
+  }
+
+  .cape-arrowDown {
+    width: 5%;
   }
 }

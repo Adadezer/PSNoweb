@@ -20,7 +20,7 @@ export default function About() {
         <h4 className="about-title" style={{ fontWeight: 700 }}>SUA MELHOR OPÇÃO</h4>
         <div className="about-content">
           <div className="about-photoStore">
-            <img src="img/about1.png" className="about-imageStore" alt="" />
+            <img src="img/about1.png" className="about-imageStore" alt="imagemLoja" />
           </div>
           <div className="about-descriptionContainer">
             <div className="about-description" dangerouslySetInnerHTML={{ __html: aboutUs.replace(/\n/g, '<br>') }} />

@@ -23,7 +23,7 @@ export default function Footer() {
             <img src="/img/logoFacebook.png" className="footer-socialLogos" alt="logoFacebook" />
           </div>
           <div className="footer-containerNoweb">
-            <div>Desenvolvido por </div>
+            <div>Desenvolvido por</div>
             <img src="/img/logoNoweb.png" className="footer-logoNoweb" alt="logoNoweb" />
           </div>
         </div>

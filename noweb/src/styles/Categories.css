@@ -17,7 +17,6 @@
   color: #ffffff;
 }
 
-
 .category-categoriesList {
   position: absolute;
   top: 35%;
@@ -42,4 +41,30 @@
   margin-top: 20%;
   min-height: 25%;
   font-size: medium;
+}
+
+@media (max-width: 992px) {
+  .categories-imageContainer {
+    margin-top: 267%;
+  }
+
+  .category-title {
+    font-size: 16px;
+  }
+
+  .category-categoriesList {
+    top: 5%;
+    width: 110%;
+    justify-content: space-evenly;
+  }
+
+  .category-cardBody {
+    width: 100%;
+    height: auto;
+    background-color: #FBAF17;
+  }
+  
+  .category-cardTitle {
+    font-size: small;
+  }
 }

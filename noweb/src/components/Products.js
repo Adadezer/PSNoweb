@@ -12,7 +12,7 @@ export default function Produtos() {
           {arrayProducts.map((product) => (
             <div className="card product-card" style={{ backgroundColor: 'transparent' }}>
               <img src={product.image} className="card-img-top product-imgCard" alt="imagemProduto" />
-              <div className="barra"></div>
+              <div className="barra" />
               <div className="product-cardBody">
                 <div className="card-text product-name">{product.name}</div>
                 <div className="card-text product-prices">

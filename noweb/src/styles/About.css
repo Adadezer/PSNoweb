@@ -35,6 +35,7 @@
   width: 100%;
   font-size: small;
 }
+
 .about-description {
   color: #333333;
 }
@@ -47,4 +48,31 @@
   border: none;
   border-radius: 10px;
   padding: 10px 25px;
+}
+
+@media (max-width: 992px) {
+  .about-imageContainer {
+    margin-top: 195%;
+  }
+  
+  .about-title {
+    font-size: 16px;
+  }
+  
+  .about-content {
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-descriptionContainer {
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .about-button{
+    width: 70%;
+    padding: 15px 25px;
+    margin-top: 2%;
+  }
 }

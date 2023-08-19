@@ -43,3 +43,18 @@
   padding: 10px 25px;
   font-size: small;
 }
+
+@media (max-width: 992px) {
+  .telesales-imageContainer {
+    margin-top: 90%;
+  }
+  
+  .telesales-button {
+    width: 70%;
+  }
+  
+  .telesales-buttonSales{
+    margin-top: 17%;
+    padding: 13px 15px 13px 20px;
+  }
+}
